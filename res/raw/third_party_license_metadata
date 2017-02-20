@@ -1,0 +1,70 @@
+23:1484 DynamicAnnotations
+1528:10173 Closure Compiler
+11711:19442 ICU4C
+31193:10695 Android Annotations Support Library
+41928:10695 Android Custom Tabs Support Library
+52658:10695 Android Design Support Library
+63390:10695 Android Graphics Support Library
+74122:10695 Android Multidex Support Library
+84856:10691 Android Transition Support Library
+95585:10695 Android Compatibility Library v13
+106317:10695 Android Compatibility Library v4
+117049:10695 Android Compatibility Library v7
+127770:10220 Android Support Tools
+138006:16013 Android SDK
+154056:11358 AOSP email common
+154056:11358 Android Email
+165453:11358 Android Microsoft Exchange support
+176828:11342 RichEditText
+188189:11358 Android Common
+199566:11358 Bitmap library
+210949:11357 AOSP calendar common
+222324:11358 Android chips
+233703:10141 customtabsclient
+243871:11358 Android datetimepicker
+255250:11357 extended_linkify
+266617:4771 Glide
+271403:11358 Guava JDK5
+282783:11341 AOSP notes common
+294145:11358 AOSP PhotoViewer
+305521:1732 Protobuf Nano
+307282:11358 Android recurrencepicker
+318662:11357 AOSP setup wizard
+330041:11341 AOSP tasks common
+341405:11358 AOSP unified email
+352782:1096 Animal Sniffer
+353894:11358 Google Auto
+365274:22655 Checker Framework
+387940:11358 Dagger
+399311:1315 dnsjava2
+400642:11357 Error Prone
+412012:11358 fastutil
+423380:11370 Guice
+434771:11324 gwt_jsdoc_linker
+446125:11357 Hallmark CardView library
+457493:1536 ical4j
+459047:11362 inject_common
+470420:11358 J2ObjC
+481800:11358 FasterXML Jackson
+493183:11358 Apache Commons Codec
+504563:11359 Apache Commons IO
+515946:11358 Apache Commons Lang
+527331:11358 Apache Commons Logging
+538706:11560 joda_convert
+550280:11358 Joda-Time
+561650:11358 JSR 250
+573020:1602 JSR 305
+574634:11365 JSR 330
+586009:1074 jutf7
+587094:11358 OkHttp
+598461:11358 Okio
+609844:1459 OWASP html sanitizer
+611313:11357 ZXing
+622685:11362 Guava JDK7
+634058:11362 inject
+645429:3182 PCRE
+648619:1558 RE2
+650185:680 STL
+650881:243 tz database
+651132:731 UTF
+651872:2500 zlib
