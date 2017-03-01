@@ -1,0 +1,59 @@
+.class public final Lac;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ldj;
+
+
+# instance fields
+.field public final synthetic a:Landroid/support/design/widget/CoordinatorLayout;
+
+.field public final synthetic b:Landroid/support/design/widget/AppBarLayout;
+
+.field public final synthetic c:Landroid/support/design/widget/AppBarLayout$Behavior;
+
+
+# direct methods
+.method public constructor <init>(Landroid/support/design/widget/AppBarLayout$Behavior;Landroid/support/design/widget/CoordinatorLayout;Landroid/support/design/widget/AppBarLayout;)V
+    .locals 0
+
+    .prologue
+    .line 959
+    iput-object p1, p0, Lac;->c:Landroid/support/design/widget/AppBarLayout$Behavior;
+
+    iput-object p2, p0, Lac;->a:Landroid/support/design/widget/CoordinatorLayout;
+
+    iput-object p3, p0, Lac;->b:Landroid/support/design/widget/AppBarLayout;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lde;)V
+    .locals 4
+
+    .prologue
+    .line 962
+    iget-object v0, p0, Lac;->c:Landroid/support/design/widget/AppBarLayout$Behavior;
+
+    iget-object v1, p0, Lac;->a:Landroid/support/design/widget/CoordinatorLayout;
+
+    iget-object v2, p0, Lac;->b:Landroid/support/design/widget/AppBarLayout;
+
+    .line 1171
+    iget-object v3, p1, Lde;->a:Ldl;
+
+    invoke-virtual {v3}, Ldl;->c()I
+
+    move-result v3
+
+    .line 962
+    invoke-virtual {v0, v1, v2, v3}, Landroid/support/design/widget/AppBarLayout$Behavior;->a_(Landroid/support/design/widget/CoordinatorLayout;Landroid/view/View;I)I
+
+    .line 964
+    return-void
+.end method

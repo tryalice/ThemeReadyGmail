@@ -1,0 +1,180 @@
+.class Lepc;
+.super Landroid/database/sqlite/SQLiteCursor;
+.source "SourceFile"
+
+
+# instance fields
+.field public c:Lepd;
+
+.field public final d:Ljava/lang/Object;
+
+.field public e:Landroid/os/Bundle;
+
+
+# direct methods
+.method public constructor <init>(Landroid/database/sqlite/SQLiteDatabase;Landroid/database/sqlite/SQLiteCursorDriver;Ljava/lang/String;Landroid/database/sqlite/SQLiteQuery;Lepd;)V
+    .locals 1
+
+    .prologue
+    .line 7946
+    invoke-direct {p0, p1, p2, p3, p4}, Landroid/database/sqlite/SQLiteCursor;-><init>(Landroid/database/sqlite/SQLiteDatabase;Landroid/database/sqlite/SQLiteCursorDriver;Ljava/lang/String;Landroid/database/sqlite/SQLiteQuery;)V
+
+    .line 7941
+    new-instance v0, Ljava/lang/Object;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    iput-object v0, p0, Lepc;->d:Ljava/lang/Object;
+
+    .line 7942
+    const/4 v0, 0x0
+
+    iput-object v0, p0, Lepc;->e:Landroid/os/Bundle;
+
+    .line 7947
+    iput-object p5, p0, Lepc;->c:Lepd;
+
+    .line 7948
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(I)V
+    .locals 2
+
+    .prologue
+    .line 7960
+    iget-object v0, p0, Lepc;->e:Landroid/os/Bundle;
+
+    if-eqz v0, :cond_0
+
+    .line 7965
+    :goto_0
+    return-void
+
+    .line 7963
+    :cond_0
+    iget-object v1, p0, Lepc;->d:Ljava/lang/Object;
+
+    monitor-enter v1
+
+    .line 7964
+    :try_start_0
+    iget-object v0, p0, Lepc;->c:Lepd;
+
+    invoke-virtual {v0, p1}, Lepd;->a(I)Landroid/os/Bundle;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lepc;->e:Landroid/os/Bundle;
+
+    .line 7965
+    monitor-exit v1
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit v1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw v0
+.end method
+
+.method public final getExtras()Landroid/os/Bundle;
+    .locals 1
+
+    .prologue
+    .line 7970
+    iget-object v0, p0, Lepc;->e:Landroid/os/Bundle;
+
+    return-object v0
+.end method
+
+.method public getWantsAllOnMoveCalls()Z
+    .locals 2
+
+    .prologue
+    .line 7982
+    iget-object v1, p0, Lepc;->d:Ljava/lang/Object;
+
+    monitor-enter v1
+
+    .line 7983
+    :try_start_0
+    iget-object v0, p0, Lepc;->c:Lepd;
+
+    invoke-virtual {v0}, Lepd;->k()Z
+
+    move-result v0
+
+    monitor-exit v1
+
+    return v0
+
+    .line 7984
+    :catchall_0
+    move-exception v0
+
+    monitor-exit v1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw v0
+.end method
+
+.method public declared-synchronized respond(Landroid/os/Bundle;)Landroid/os/Bundle;
+    .locals 2
+
+    .prologue
+    .line 7975
+    monitor-enter p0
+
+    :try_start_0
+    iget-object v1, p0, Lepc;->d:Ljava/lang/Object;
+
+    monitor-enter v1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_1
+
+    .line 7976
+    :try_start_1
+    iget-object v0, p0, Lepc;->c:Lepd;
+
+    invoke-virtual {v0, p1}, Lepd;->a(Landroid/os/Bundle;)Landroid/os/Bundle;
+
+    move-result-object v0
+
+    monitor-exit v1
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    monitor-exit p0
+
+    return-object v0
+
+    .line 7977
+    :catchall_0
+    move-exception v0
+
+    :try_start_2
+    monitor-exit v1
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
+
+    :try_start_3
+    throw v0
+    :try_end_3
+    .catchall {:try_start_3 .. :try_end_3} :catchall_1
+
+    .line 7975
+    :catchall_1
+    move-exception v0
+
+    monitor-exit p0
+
+    throw v0
+.end method

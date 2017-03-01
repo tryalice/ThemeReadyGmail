@@ -1,0 +1,90 @@
+.class public final Laji;
+.super Lano;
+.source "SourceFile"
+
+
+# instance fields
+.field public a:Z
+    .annotation runtime Landroid/view/ViewDebug$ExportedProperty;
+    .end annotation
+.end field
+
+.field public b:I
+    .annotation runtime Landroid/view/ViewDebug$ExportedProperty;
+    .end annotation
+.end field
+
+.field public c:I
+    .annotation runtime Landroid/view/ViewDebug$ExportedProperty;
+    .end annotation
+.end field
+
+.field public d:Z
+    .annotation runtime Landroid/view/ViewDebug$ExportedProperty;
+    .end annotation
+.end field
+
+.field public e:Z
+    .annotation runtime Landroid/view/ViewDebug$ExportedProperty;
+    .end annotation
+.end field
+
+.field public f:Z
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .prologue
+    const/4 v0, -0x2
+
+    .line 841
+    invoke-direct {p0, v0, v0}, Lano;-><init>(II)V
+
+    .line 842
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Laji;->a:Z
+
+    .line 843
+    return-void
+.end method
+
+.method public constructor <init>(Laji;)V
+    .locals 1
+
+    .prologue
+    .line 836
+    invoke-direct {p0, p1}, Lano;-><init>(Landroid/view/ViewGroup$LayoutParams;)V
+
+    .line 837
+    iget-boolean v0, p1, Laji;->a:Z
+
+    iput-boolean v0, p0, Laji;->a:Z
+
+    .line 838
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    .locals 0
+
+    .prologue
+    .line 828
+    invoke-direct {p0, p1, p2}, Lano;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+
+    .line 829
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/view/ViewGroup$LayoutParams;)V
+    .locals 0
+
+    .prologue
+    .line 832
+    invoke-direct {p0, p1}, Lano;-><init>(Landroid/view/ViewGroup$LayoutParams;)V
+
+    .line 833
+    return-void
+.end method

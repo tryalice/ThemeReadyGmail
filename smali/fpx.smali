@@ -1,0 +1,75 @@
+.class public final Lfpx;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lfqu;
+
+
+# instance fields
+.field public final synthetic a:Landroid/content/Intent;
+
+.field public final synthetic b:Lfpw;
+
+
+# direct methods
+.method public constructor <init>(Lfpw;Landroid/content/Intent;)V
+    .locals 0
+
+    iput-object p1, p0, Lfpx;->b:Lfpw;
+
+    iput-object p2, p0, Lfpx;->a:Landroid/content/Intent;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lffq;
+    .locals 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lffq",
+            "<",
+            "Lcom/google/android/gms/common/api/Status;",
+            ">;"
+        }
+    .end annotation
+
+    .prologue
+    .line 0
+    sget-object v0, Lfqq;->d:Lfqo;
+
+    iget-object v1, p0, Lfpx;->b:Lfpw;
+
+    .line 1000
+    iget-object v1, v1, Lfpw;->b:Lffm;
+
+    iget-object v2, p0, Lfpx;->b:Lfpw;
+
+    iget-object v2, v2, Lfpw;->a:Landroid/app/Activity;
+
+    iget-object v3, p0, Lfpx;->a:Landroid/content/Intent;
+
+    invoke-interface {v0, v1, v2, v3}, Lfqo;->a(Lffm;Landroid/app/Activity;Landroid/content/Intent;)Lffq;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final b()V
+    .locals 3
+
+    iget-object v0, p0, Lfpx;->b:Lfpw;
+
+    const/16 v1, 0x10
+
+    iget-object v2, p0, Lfpx;->a:Landroid/content/Intent;
+
+    invoke-virtual {v0, v1, v2}, Lfpw;->a(ILandroid/content/Intent;)V
+
+    return-void
+.end method
