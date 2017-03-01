@@ -273,7 +273,7 @@
     iput v3, p0, Lawo;->V:I
 
     .line 240
-    const v3, 0x106000b
+    const v3, 0x7f0a006f # @color/bright_foreground_material_dark
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getColor(I)I
 

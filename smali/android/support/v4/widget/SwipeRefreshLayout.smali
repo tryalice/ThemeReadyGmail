@@ -281,7 +281,7 @@
     iget-object v1, v1, Laag;->e:Laak;
 
     .line 30510
-    const v2, -0x50506
+    const v2, -0xcfcfd0
 
     iput v2, v1, Laak;->w:I
 
