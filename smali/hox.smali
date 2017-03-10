@@ -1,0 +1,46 @@
+.class public final Lhox;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public a:Landroid/widget/ImageView;
+
+.field public b:Ljsn;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljsn",
+            "<",
+            "Lgvz;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public c:Z
+
+
+# direct methods
+.method public constructor <init>(Landroid/widget/ImageView;Z)V
+    .locals 1
+
+    .prologue
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    iput-object p1, p0, Lhox;->a:Landroid/widget/ImageView;
+
+    .line 3
+    iput-boolean p2, p0, Lhox;->c:Z
+
+    .line 5
+    new-instance v0, Ljsn;
+
+    invoke-direct {v0}, Ljsn;-><init>()V
+
+    iput-object v0, p0, Lhox;->b:Ljsn;
+
+    .line 6
+    return-void
+.end method

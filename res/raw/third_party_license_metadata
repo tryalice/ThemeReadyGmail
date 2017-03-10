@@ -1,0 +1,79 @@
+9:11358 cctz
+11390:1484 DynamicAnnotations
+12895:10173 Closure Compiler
+23078:19442 ICU4C
+42560:10695 Android Annotations Support Library
+53290:10695 Android Compat Support Library
+64021:10695 Android Core UI Support Library
+74755:10691 Android Core Utils Support Library
+85486:10695 Android Custom Tabs Support Library
+96216:10695 Android Design Support Library
+106949:10695 Android Fragments Support Library
+117681:10695 Android Graphics Support Library
+128417:10691 Android Media Compat Support Library
+139145:10695 Android Multidex Support Library
+149879:10691 Android Transition Support Library
+160608:10695 Android Compatibility Library v13
+171340:10695 Android Compatibility Library v4
+182072:10695 Android Compatibility Library v7
+192793:10220 Android Support Tools
+203029:16013 Android SDK
+219079:11358 Android Email
+219079:11358 AOSP email common
+230476:11358 Android Microsoft Exchange support
+241851:11342 RichEditText
+253212:11358 Android Common
+264589:11358 Bitmap library
+275972:11357 AOSP calendar common
+287347:11358 Android chips
+298726:10141 customtabsclient
+308894:11358 Android datetimepicker
+320273:11357 extended_linkify
+331640:4771 Glide
+336426:11358 Guava JDK5
+347806:11341 AOSP notes common
+359168:11358 AOSP PhotoViewer
+370544:1732 Protobuf Nano
+372305:11358 Android recurrencepicker
+383685:11357 AOSP setup wizard
+395064:11341 AOSP tasks common
+406428:11358 AOSP unified email
+417805:1096 Animal Sniffer
+418917:11358 Google Auto
+430297:22655 Checker Framework
+452963:11358 Dagger
+464334:1315 dnsjava2
+465665:11357 Error Prone
+477035:11358 fastutil
+488403:11370 Guice
+499794:11324 gwt_jsdoc_linker
+511148:11357 Hallmark CardView library
+522516:1536 ical4j
+524070:11362 inject_common
+535443:11358 J2ObjC
+546823:11358 FasterXML Jackson
+558206:11358 Apache Commons Codec
+569586:11359 Apache Commons IO
+580969:11358 Apache Commons Lang
+592354:11358 Apache Commons Logging
+603729:11560 joda_convert
+615303:11358 Joda-Time
+626673:11358 JSR 250
+638043:1602 JSR 305
+639657:11365 JSR 330
+651032:1074 jutf7
+652117:11358 OkHttp
+663484:11358 Okio
+674867:1459 OWASP html sanitizer
+676338:11357 tagsoup
+687705:11357 ZXing
+699091:11358 lib
+699091:11358 material_components
+710464:11362 Guava JDK7
+721837:11362 inject
+733208:3182 PCRE
+736398:1558 RE2
+737964:680 STL
+738660:243 tz database
+738911:731 UTF
+739651:2500 zlib

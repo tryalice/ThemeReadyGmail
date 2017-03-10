@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="VacationResponderArea" parent="@style/VacationResponderComposeArea" />
+    <style name="DrawerNavigationStyle">
+        <item name="android:nextFocusLeft">@id/list_view</item>
+    </style>
+    <style name="VacationResponderDatePadding" />
+</resources>

@@ -1,0 +1,197 @@
+.class public final Ljbu;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public final a:Ljava/lang/String;
+
+
+# direct methods
+.method private constructor <init>(Ljava/lang/String;)V
+    .locals 1
+
+    .prologue
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    invoke-static {p1}, Ljcf;->a(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Ljava/lang/String;
+
+    iput-object v0, p0, Ljbu;->a:Ljava/lang/String;
+
+    .line 5
+    return-void
+.end method
+
+.method private static a(Ljava/lang/Object;)Ljava/lang/CharSequence;
+    .locals 1
+
+    .prologue
+    .line 20
+    invoke-static {p0}, Ljcf;->a(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 21
+    instance-of v0, p0, Ljava/lang/CharSequence;
+
+    if-eqz v0, :cond_0
+
+    check-cast p0, Ljava/lang/CharSequence;
+
+    :goto_0
+    return-object p0
+
+    :cond_0
+    invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    goto :goto_0
+.end method
+
+.method public static a(C)Ljbu;
+    .locals 2
+
+    .prologue
+    .line 2
+    new-instance v0, Ljbu;
+
+    invoke-static {p0}, Ljava/lang/String;->valueOf(C)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Ljbu;-><init>(Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+.method public static a(Ljava/lang/String;)Ljbu;
+    .locals 1
+
+    .prologue
+    .line 1
+    new-instance v0, Ljbu;
+
+    invoke-direct {v0, p0}, Ljbu;-><init>(Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/Iterable;)Ljava/lang/String;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Iterable",
+            "<*>;)",
+            "Ljava/lang/String;"
+        }
+    .end annotation
+
+    .prologue
+    .line 18
+    invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    .line 19
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {p0, v1, v0}, Ljbu;->a(Ljava/lang/StringBuilder;Ljava/util/Iterator;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final a(Ljava/lang/StringBuilder;Ljava/util/Iterator;)Ljava/lang/StringBuilder;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/StringBuilder;",
+            "Ljava/util/Iterator",
+            "<*>;)",
+            "Ljava/lang/StringBuilder;"
+        }
+    .end annotation
+
+    .prologue
+    .line 6
+    .line 7
+    :try_start_0
+    invoke-static {p1}, Ljcf;->a(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 8
+    invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 9
+    invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    invoke-static {v0}, Ljbu;->a(Ljava/lang/Object;)Ljava/lang/CharSequence;
+
+    move-result-object v0
+
+    invoke-interface {p1, v0}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
+
+    .line 10
+    :goto_0
+    invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 11
+    iget-object v0, p0, Ljbu;->a:Ljava/lang/String;
+
+    invoke-interface {p1, v0}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
+
+    .line 12
+    invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    invoke-static {v0}, Ljbu;->a(Ljava/lang/Object;)Ljava/lang/CharSequence;
+
+    move-result-object v0
+
+    invoke-interface {p1, v0}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    .line 15
+    :catch_0
+    move-exception v0
+
+    .line 16
+    new-instance v1, Ljava/lang/AssertionError;
+
+    invoke-direct {v1, v0}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
+
+    throw v1
+
+    .line 17
+    :cond_0
+    return-object p1
+.end method
