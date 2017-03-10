@@ -272,7 +272,7 @@
     if-eqz v1, :cond_3
 
     .line 37
-    const v1, 0x106000b
+    const v1, 0x7f0a006f # @color/bright_foreground_material_dark
 
     :goto_1
     invoke-virtual {v11, v1}, Landroid/content/res/Resources;->getColor(I)I
@@ -876,7 +876,7 @@
     iput v6, v4, Lawf;->e:I
 
     .line 173
-    const v6, 0x106000b
+    const v6, 0x7f0a006f # @color/bright_foreground_material_dark
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -911,7 +911,7 @@
     invoke-virtual {v1, v2, v3}, Lawk;->a(Landroid/content/Context;Z)V
 
     .line 185
-    const v1, 0x106000b
+    const v1, 0x7f0a0227 # @color/list_background_color
 
     invoke-virtual {v11, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1370,7 +1370,7 @@
 
     .line 165
     :cond_8
-    const v6, 0x106000b
+    const v6, 0x7f0a006f # @color/bright_foreground_material_dark
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1391,7 +1391,7 @@
 
     .line 175
     :cond_9
-    const v6, 0x106000b
+    const v6, 0x7f0a006f # @color/bright_foreground_material_dark
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getColor(I)I
 
