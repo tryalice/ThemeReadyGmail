@@ -1137,7 +1137,7 @@
     move-result-object v3
 
     .line 70
-    const v4, 0x106000b
+    const v4, 0x7f0a0227 # @color/list_background_color
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
 
