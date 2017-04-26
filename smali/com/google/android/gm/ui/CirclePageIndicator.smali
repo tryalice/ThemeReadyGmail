@@ -79,7 +79,7 @@
 
     sget v3, Leht;->x:I
 
-    const v4, 0x1060012
+    const v4, 0x7f0a02b8 # @color/play_highlight_blue_fill
 
     .line 11
     invoke-virtual {v1, v3, v4}, Landroid/content/res/TypedArray;->getColor(II)I
@@ -115,7 +115,7 @@
 
     sget v3, Leht;->y:I
 
-    const v4, 0x1060013
+    const v4, 0x7f0a02b9 # @color/play_highlight_blue_outline
 
     .line 17
     invoke-virtual {v1, v3, v4}, Landroid/content/res/TypedArray;->getColor(II)I
