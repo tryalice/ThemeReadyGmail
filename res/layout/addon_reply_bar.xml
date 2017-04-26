@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.gmail.featurelibraries.addons.impl.AddonReplyBar android:id="@id/addon_reply_bar" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.gmail.featurelibraries.addons.impl.QuickReplyButton android:id="@id/reply_button" android:paddingRight="24.0dip" android:src="@drawable/quantum_ic_reply_grey600_24" style="@style/AddonReplyButton" />
+    <TextView android:textSize="16.0sp" android:id="@id/reply_text" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:text="@string/reply" style="@style/AddonReplyButton" />
+    <View android:id="@id/padding_space" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/expand_collapse_button" android:padding="@dimen/addons_icon_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/quantum_ic_chevron_left_grey600_24" />
+    <HorizontalScrollView android:id="@id/scrollView" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="fill_parent" android:fillViewport="true">
+        <com.google.android.apps.gmail.featurelibraries.addons.impl.AddonIconsContainer android:gravity="center" android:orientation="horizontal" android:id="@id/addon_buttons" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </HorizontalScrollView>
+</com.google.android.apps.gmail.featurelibraries.addons.impl.AddonReplyBar>
