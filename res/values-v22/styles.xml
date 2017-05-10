@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SuwThemeGlifV2" parent="@style/SuwThemeGlif">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="suwGlifHeaderGravity">center_horizontal</item>
+        <item name="suwScrollIndicators">bottom|top</item>
+        <item name="suwBackgroundPatterned">false</item>
+        <item name="suwBackgroundBaseColor">?android:colorBackground</item>
+    </style>
+    <style name="SuwThemeGlifV2.Light" parent="@style/SuwThemeGlif.Light">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="suwGlifHeaderGravity">center_horizontal</item>
+        <item name="suwScrollIndicators">bottom|top</item>
+        <item name="suwBackgroundPatterned">false</item>
+        <item name="suwBackgroundBaseColor">?android:colorBackground</item>
+    </style>
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V22.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V22.Theme.AppCompat.Light" />
+    <style name="Base.V22.Theme.AppCompat" parent="@style/Base.V21.Theme.AppCompat">
+        <item name="actionModeShareDrawable">?android:actionModeShareDrawable</item>
+        <item name="editTextBackground">?android:editTextBackground</item>
+    </style>
+    <style name="Base.V22.Theme.AppCompat.Light" parent="@style/Base.V21.Theme.AppCompat.Light">
+        <item name="actionModeShareDrawable">?android:actionModeShareDrawable</item>
+        <item name="editTextBackground">?android:editTextBackground</item>
+    </style>
+</resources>

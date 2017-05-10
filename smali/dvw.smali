@@ -1,0 +1,8 @@
+.class public interface abstract Ldvw;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract a(Ldvv;II)V
+.end method

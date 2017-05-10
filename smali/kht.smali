@@ -1,0 +1,26 @@
+.class public interface abstract Lkht;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract a()Lkiq;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkiq",
+            "<TV;>;"
+        }
+    .end annotation
+.end method
