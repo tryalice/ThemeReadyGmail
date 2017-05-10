@@ -587,7 +587,7 @@
     .line 54
     sget v0, Lbwi;->aq:I
 
-    const v3, 0x106000c
+    const v3, 0x7f0e0072 # @color/bright_foreground_material_light
 
     .line 55
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
@@ -4853,7 +4853,7 @@
 
     move-result-object v4
 
-    const v5, 0x106000c
+    const v5, 0x7f0e0072 # @color/bright_foreground_material_light
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 

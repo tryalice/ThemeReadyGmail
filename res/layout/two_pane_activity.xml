@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <include layout="@layout/toolbar_with_search" />
     <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?android:windowContentOverlay">
-        <com.android.mail.ui.TwoPaneLayout android:id="@id/two_pane_activity" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foregroundGravity="fill_horizontal|center|top">
+        <com.android.mail.ui.TwoPaneLayout android:id="@id/two_pane_activity" android:background="@color/list_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foregroundGravity="fill_horizontal|center|top">
             <FrameLayout android:layout_gravity="left" android:id="@id/drawer" android:layout_width="@dimen/two_pane_drawer_width_open" android:layout_height="fill_parent">
                 <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/drawer_fragment" />
             </FrameLayout>
