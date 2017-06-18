@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="
+        @string/ga_trackingId,
+  @bool/ga_autoActivityTracking,
+  @bool/ga_reportUncaughtExceptions,
+  @bool/ga_anonymizeIp,
+  @bool/ga_debug,"
+  />
