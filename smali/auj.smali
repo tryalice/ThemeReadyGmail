@@ -463,7 +463,7 @@
     if-eqz p2, :cond_0
 
     .line 63
-    const v1, 0x106000b
+    const v1, 0x7f0b0065 # @color/list_background_color
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 

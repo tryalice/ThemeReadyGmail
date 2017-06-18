@@ -84,7 +84,7 @@
 
     move-result-object v1
 
-    const v2, -0x50506
+    const v2, -0xcfcfd0
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
 

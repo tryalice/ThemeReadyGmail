@@ -8,7 +8,7 @@
     <com.android.mail.browse.ScrollIndicatorsView android:scrollbarStyle="outsideOverlay" android:id="@id/scroll_indicators" android:scrollbars="horizontal|vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     <include layout="@layout/conversation_load_spinner" />
     <FrameLayout android:id="@id/animation_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <LinearLayout android:orientation="vertical" android:id="@id/addons_container" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
-        <View android:id="@id/addons_separator" android:background="#ffe0e0e0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/addons_container" android:background="@color/list_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:id="@id/addons_separator" android:background="@color/quantum_grey300" android:layout_width="fill_parent" android:layout_height="1.0dip" />
     </LinearLayout>
 </RelativeLayout>

@@ -7,6 +7,6 @@
         <ProgressBar android:layout_gravity="bottom" android:id="@id/indeterminate_progress" android:visibility="gone" android:layout_width="@dimen/photo_preview_size" android:layout_height="wrap_content" android:indeterminate="true" style="?android:attr/progressBarStyleHorizontal" />
         <ProgressBar android:layout_gravity="bottom" android:id="@id/determinate_progress" android:visibility="gone" android:layout_width="@dimen/photo_preview_size" android:layout_height="wrap_content" android:indeterminate="false" style="?android:attr/progressBarStyleHorizontal" />
     </FrameLayout>
-    <TextView android:textColor="@android:color/white" android:id="@id/empty_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/photo_preview" android:layout_centerHorizontal="true" />
+    <TextView android:textColor="@color/bright_foreground_material_dark" android:id="@id/empty_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/photo_preview" android:layout_centerHorizontal="true" />
     <include layout="@layout/photo_retry_button" />
 </RelativeLayout>

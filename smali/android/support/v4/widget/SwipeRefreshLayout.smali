@@ -281,7 +281,7 @@
     iget-object v1, v1, Lyb;->e:Lyf;
 
     .line 42
-    const v2, -0x50506
+    const v2, -0xcfcfd0
 
     iput v2, v1, Lyf;->w:I
 
