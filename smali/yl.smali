@@ -1453,7 +1453,7 @@
     .line 371
     iget-object v0, p0, Lyl;->i:Laeo;
 
-    const v1, 0x106000d
+    const v1, 0x7f0b0209 # @color/quantum_purple500
 
     invoke-interface {v0, v1}, Laeo;->a(I)V
 

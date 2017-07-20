@@ -78,7 +78,7 @@
 
     sget v3, Leet;->x:I
 
-    const v4, 0x1060012
+    const v4, 0x7f0b00f0 # @color/play_highlight_blue_fill
 
     .line 10
     invoke-virtual {v1, v3, v4}, Landroid/content/res/TypedArray;->getColor(II)I
@@ -114,7 +114,7 @@
 
     sget v3, Leet;->y:I
 
-    const v4, 0x1060013
+    const v4, 0x7f0b00f1 # @color/play_highlight_blue_outline
 
     .line 16
     invoke-virtual {v1, v3, v4}, Landroid/content/res/TypedArray;->getColor(II)I

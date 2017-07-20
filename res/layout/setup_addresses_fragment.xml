@@ -5,7 +5,7 @@
     <LinearLayout android:orientation="vertical" android:background="@color/quantum_lightblue600" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <TextView android:id="@id/setup_addresses_title" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setup_addresses_new_user_title" style="@style/SetupAccount.Text.Title" />
     </LinearLayout>
-    <ScrollView android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+    <ScrollView android:orientation="vertical" android:background="@color/list_background_color" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
         <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
             <LinearLayout android:orientation="vertical" android:id="@id/setup_addresses_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
             <TextView android:id="@id/setup_addresses_add_another" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/welcome_tour_all_addresses_add_account" style="@style/SetupAccount.AddAccount.WithStartMargin" />

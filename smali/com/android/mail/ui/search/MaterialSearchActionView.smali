@@ -64,7 +64,7 @@
     .locals 4
 
     .prologue
-    const v3, 0x106000b
+    const v3, 0x7f0b001a # @color/background_floating_material_light
 
     .line 3
     invoke-direct {p0, p1, p2}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V

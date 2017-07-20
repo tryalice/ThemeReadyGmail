@@ -106,7 +106,7 @@
     .line 16
     iget-object v0, p0, Lyc;->a:Laeo;
 
-    const v1, 0x106000d
+    const v1, 0x7f0b01fa # @color/quantum_pink500
 
     invoke-interface {v0, v1}, Laeo;->a(I)V
 
