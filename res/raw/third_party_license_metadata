@@ -1,0 +1,79 @@
+21:11358 AOSP PhotoViewer
+11404:11357 AOSP calendar common
+22783:11341 AOSP notes common
+34146:11357 AOSP setup wizard
+45525:11341 AOSP tasks common
+56889:11358 AOSP unified email
+68287:10695 Android Annotations Support Library
+79001:11358 Android Common
+90394:10695 Android Compat Support Library
+101127:10695 Android Compatibility Library v13
+111859:10695 Android Compatibility Library v4
+122591:10695 Android Compatibility Library v7
+133322:10695 Android Core UI Support Library
+144056:10691 Android Core Utils Support Library
+154787:10695 Android Custom Tabs Support Library
+165517:10695 Android Design Support Library
+176230:11358 Android Email
+187626:10695 Android Fragments Support Library
+198358:10695 Android Graphics Support Library
+209094:10691 Android Media Compat Support Library
+219824:11358 Android Microsoft Exchange support
+231219:10695 Android Multidex Support Library
+241940:10220 Android Support Tools
+252199:10691 Android Transition Support Library
+262908:11358 Android chips
+274293:11358 Android datetimepicker
+285680:11358 Android recurrencepicker
+297063:11358 Apache Commons Codec
+308443:11359 Apache Commons IO
+319826:11358 Apache Commons Lang
+331211:11358 Apache Commons Logging
+342588:11358 Bitmap library
+353967:10173 Closure Compiler
+364151:11358 Dagger
+375525:11357 Error Prone
+386904:11358 FasterXML Jackson
+398278:11358 Google Auto
+409651:11358 Guava JDK5
+421024:11362 Guava JDK7
+432396:11370 Guice
+443796:11357 Hallmark CardView library
+455164:11358 J2ObjC
+466534:11358 JSR 250
+477904:11365 JSR 330
+489283:11358 Joda-Time
+500652:11358 OkHttp
+512019:11358 Okio
+523394:11342 RichEditText
+534746:11357 ZXing
+546112:11358 cctz
+557491:10141 customtabsclient
+567653:11357 extended_linkify
+579023:11358 fastutil
+590402:11324 gwt_jsdoc_linker
+601737:11362 inject
+613117:11362 inject_common
+624496:11358 joda_convert
+635878:11358 material_components
+647248:11357 tagsoup
+658621:16013 Android SDK
+674656:22655 Checker Framework
+697330:1096 Animal Sniffer
+698434:680 STL
+699122:731 UTF
+699863:1074 jutf7
+700953:243 tz database
+701205:2500 zlib
+703728:1484 DynamicAnnotations
+705224:1602 JSR 305
+706851:1459 OWASP html sanitizer
+708328:1732 Protobuf Nano
+710068:1558 RE2
+711639:1315 dnsjava2
+712965:1536 ical4j
+714515:1732 nanoproto
+716257:4771 Glide
+721038:19442 ICU4C
+740490:19442 ICU4J
+759941:3182 PCRE

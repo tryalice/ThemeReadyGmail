@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/reply_button" android:title="@string/reply" />
+    <item android:id="@id/reply_all_button" android:title="@string/reply_all" />
+    <item android:id="@id/forward_button" android:title="@string/forward" />
+</menu>
