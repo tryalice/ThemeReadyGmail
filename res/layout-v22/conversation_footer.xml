@@ -7,7 +7,7 @@
         <TextView android:id="@id/reply_all_button" android:focusable="true" android:text="@string/reply_all" android:drawableTop="@drawable/quantum_ic_reply_all_grey600_24" style="@style/ConversationFooterButtonStyle" />
         <TextView android:id="@id/forward_button" android:focusable="true" android:text="@string/forward" android:drawableTop="@drawable/quantum_ic_forward_grey600_24" style="@style/ConversationFooterButtonStyle" />
     </LinearLayout>
-    <LinearLayout android:orientation="vertical" android:id="@id/addons_footer_container" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+    <LinearLayout android:orientation="vertical" android:id="@id/addons_footer_container" android:background="@color/list_background_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
         <View android:id="@id/addons_separator" android:background="@color/addons_separator_background" android:layout_width="fill_parent" android:layout_height="1.0dip" />
     </LinearLayout>
 </com.android.mail.browse.ConversationFooterView>

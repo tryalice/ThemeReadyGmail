@@ -1765,7 +1765,19 @@
 
     move-result-object v3
 
-    const/high16 v4, -0x1000000
+    invoke-virtual {v2}, Landroid/graphics/drawable/Drawable;->mutate()Landroid/graphics/drawable/Drawable;
+
+    move-result-object v3
+
+    invoke-virtual {p1}, Landroid/widget/ImageView;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v5
+
+    const v4, 0x7f0b0116 # @color/quantum_black_100
+	
+    invoke-virtual {v5, v4}, Landroid/content/res/Resources;->getColor(I)I
+
+    move-result v4
 
     sget-object v5, Landroid/graphics/PorterDuff$Mode;->MULTIPLY:Landroid/graphics/PorterDuff$Mode;
 
